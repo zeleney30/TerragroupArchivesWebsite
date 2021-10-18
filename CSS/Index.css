@@ -20,6 +20,7 @@ body
     overflow: hidden;
     background-color: rgb(16, 20, 24);
     display: inline;
+    border-bottom: 1px solid rgb(100, 100, 100);
 }
 
 .navBarItems
@@ -45,11 +46,10 @@ body
 #indexMainImg
 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
     position: relative;
     width: 100%;
-
+    border-bottom: 1px solid rgb(100, 100, 100);
     filter: brightness(70%);
 }
 
@@ -86,29 +86,75 @@ h1
 
 h2
 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
 }
 
 h3
 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
 }
 
 h4
 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
 }
 
 p
 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
 }
 
-.products
+#productPricing
 {
+    text-align: center;
+}
+
+#productLeft
+{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    padding-bottom: 20px;
     display: inline-block;
-    border: 1px solid;
+    text-align: left;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 7px;
     width: 250px;
+    background-color: rgb(24, 28, 32);
+}
+
+#productCenter
+{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 7px;
+    width: 250px;
+    background-color: rgb(24, 28, 32);
+}
+
+#productRight
+{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 7px;
+    width: 250px;
+    background-color: rgb(24, 28, 32);
+}
+
+i
+{
+    padding-left: 20%;
 }
 
 #features
