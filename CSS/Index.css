@@ -71,9 +71,8 @@ h1
     overflow:auto;
 }
 
-#buttonPurchase
+#buttonLearnMore
 {
-    
     cursor: pointer;
 
     position: absolute;
@@ -111,6 +110,15 @@ p
 #productPricing
 {
     text-align: center;
+    padding-top:  8px;
+    padding-bottom: 50px;
+    background-color: rgb(24, 28, 32);
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+#productPricing h2
+{
+    font-size: 32px;
 }
 
 #productLeft
@@ -150,6 +158,80 @@ p
     border-radius: 7px;
     width: 250px;
     background-color: rgb(24, 28, 32);
+}
+
+#buttonPurchase
+{
+    cursor: pointer;
+
+    position: absolute;
+    transform: translate(-50%, 12%);
+    width: 5%;
+    height: 2.5%;
+}
+
+#productDescriptions
+{
+    margin: 26px 24%;
+}
+
+#descMain
+{
+    display: block;
+    font-size: 18px;
+
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+#descMain h2
+{
+    font-size: 32px;
+}
+
+#descMaps
+{
+    display: inline-block;
+    text-align: left;
+    width: 32%;
+}
+
+#descAmmoChart
+{
+    display: inline-block;
+    text-align: left;
+    width: 32%;
+    padding-left: 1.5%;
+}
+
+#descQuestHelper
+{
+    display: inline-block;
+    text-align: left;
+    width: 32%;
+    padding-left: 1.5%;
+}
+
+#descPriceCheck
+{
+    display: inline-block;
+    text-align: left;
+    width: 32%;
+}
+
+#descLoadout
+{
+    display: inline-block;
+    text-align: left;
+    width: 32%;
+    padding-left: 1.5%;
+}
+
+#descOverlay
+{
+    display: inline-block;
+    text-align: left;
+    width: 32%;
+    padding-left: 1.5%;
 }
 
 i
