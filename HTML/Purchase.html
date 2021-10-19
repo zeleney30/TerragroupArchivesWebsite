@@ -27,7 +27,61 @@
         </header>
 
         <main id="mainContent">
-            <br>
+            <h1>Purchase</h1>
+
+            <form id="formPurchase">
+                <label for="productSelection">Product:</label>
+                <br>
+                <select name="productSelection" id="productSelection">
+                    <option value="Free">Free</option>
+                    <option value="7">$7</option>
+                    <option value="15">$15</option>
+                </select>
+
+                <hr>
+
+                <label for="name">Full Name:</label>
+                <br>
+                <input type="text" placeholder="John Doe" class="inputBilling" id="inputName" name="name">
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" placeholder="YourEmail@Example.com" class="inputBilling" id="inputEmail" name="email">
+
+                <label for="address">Address:</label>
+                <br>
+                <input type="text" placeholder="12345 North St" class="inputBilling" id="inputAddress" name="address">
+
+                <label for="city">City:</label>
+                <br>
+                <input type="text" placeholder="Detroit" class="inputBilling" id="inputCity" name="city">
+
+                <label for="state">State:</label>
+                <br>
+                <input type="text" placeholder="Michigan" class="inputBilling" id="inputState" name="state">
+
+                <label for="zipCode">Zip Code:</label>
+                <br>
+                <input type="text" placeholder="12345" class="inputBilling" id="inputZipCode" name="zipCode">
+
+                <br>
+
+                <label for="nameOnCard">Name on Card:</label>
+                <br>
+                <input type="text" placeholder="John Smith" class="inputPayment" id="inputNameOnCard" name="nameOnCard">
+
+                <label for="cardNumber">Card Number:</label>
+                <br>
+                <input type="text" placeholder="0000-0000-0000-0000" class="inputPayment" id="inputCardNumber" name="cardNumber">
+
+                <label for="expiration">Expiration Date:</label>
+                <br>
+                <input type="text" placeholder="01/28" class="inputPayment" id="inputExpiration" name="expiration">
+
+                <label for="CVV">CVV:</label>
+                <br>
+                <input type="text" placeholder="123" class="inputPayment" id="inputCVV" name="CVV">
+            </form>
         </main>
 
         <footer id="pageFooter">
