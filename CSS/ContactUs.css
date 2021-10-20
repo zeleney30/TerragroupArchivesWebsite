@@ -81,6 +81,28 @@ body
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.input
+{
+    width: 85%;
+    margin-bottom: 6px;
+
+    outline: none;
+    outline-style: none;
+    border: 1px solid;
+    outline-width: 0;
+    border-radius: 0;
+}
+
+.input:focus
+{
+    width: 85%;
+    outline: none;
+    outline-style: none;
+    border: 1px solid;
+    outline-width: 0;
+    border-radius: 0;
+}
+
 #mainContent
 {
     margin-top: 46px;
@@ -110,7 +132,7 @@ input
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.input
+.inputEmailInfo
 {
     width: 20%;
     margin-bottom: 6px;
@@ -122,7 +144,7 @@ input
     border-radius: 0;
 }
 
-.input:focus
+.inputEmailInfo:focus
 {
     width: 20%;
     outline: none;
@@ -130,6 +152,16 @@ input
     border: 1px solid;
     outline-width: 0;
     border-radius: 0;
+}
+
+#inputName
+{
+    height: 20px;
+}
+
+#inputEmail
+{
+    height: 20px;
 }
 
 #inputMessage

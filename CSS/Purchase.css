@@ -41,6 +41,31 @@ body
     background-color: rgb(15, 15, 15);
 }
 
+.input
+{
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 85%;
+    margin-bottom: 6px;
+
+    outline: none;
+    outline-style: none;
+    border: 1px solid;
+    outline-width: 0;
+    border-radius: 0;
+}
+
+.input:focus
+{
+    width: 85%;
+    outline: none;
+    outline-style: none;
+    border: 1px solid;
+    outline-width: 0;
+    border-radius: 0;
+}
+
 #formLogin
 {
     position: fixed;
@@ -92,6 +117,26 @@ h1
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#product
+{
+    display: block;
+    padding-bottom: 24px;
+}
+
+#billing
+{
+    display: inline-block;
+    width: 7%;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+#cardInfo
+{
+    display: inline-block;
+    width: 7%;
+}
+
 label
 {
     color: rgb(255, 255, 255);
@@ -100,15 +145,65 @@ label
 
 input
 {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inputBilling
+{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: block;
-    width: 7%;
+    width: 100%;
+}
+
+.inputPayment
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    width: 100%;
+}
+
+.inputBilling:focus
+{
+    width: 100%;
+    outline: none;
+    outline-style: none;
+    border: 1px solid;
+    outline-width: 0;
+    border-radius: 0;
+}
+
+.inputPayment:focus
+{
+    width: 100%;
+    outline: none;
+    outline-style: none;
+    border: 1px solid;
+    outline-width: 0;
+    border-radius: 0;
 }
 
 select
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 7%;
+    outline: none;
+    outline-style: none;
+    border: 1px solid;
+    outline-width: 0;
+    border-radius: 0;
+}
+
+p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+i
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 hr

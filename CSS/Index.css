@@ -257,6 +257,16 @@ p
     border-bottom: 1px solid rgb(100, 100, 100);
 }
 
+#linkEFT
+{
+    color: rgb(115, 175, 255);
+}
+
+#linkEFT:focus
+{
+    color: rgb(30, 90, 160);
+}
+
 #descMain h2
 {
     font-size: 32px;
