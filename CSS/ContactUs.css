@@ -12,12 +12,15 @@ body
     position: fixed;
     z-index: 1;
     top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(16, 20, 24);
+    display: inline;
     border-bottom: 1px solid rgb(100, 100, 100);
 }
 
@@ -41,6 +44,18 @@ body
     background-color: rgb(15, 15, 15);
 }
 
+#mainContent
+{
+    position: absolute;
+    background-color: rgb(24, 28, 32);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 7px;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+}
+
 #formLogin
 {
     position: fixed;
@@ -51,7 +66,7 @@ body
     padding-bottom: 24px;
     border: 1px solid rgb(100, 100, 100);
     border-radius: 7px;
-    margin-top: 10px;
+    margin-top: 48px;
     right: 9px;
 }
 
@@ -65,7 +80,7 @@ body
     padding-bottom: 24px;
     border: 1px solid rgb(100, 100, 100);
     border-radius: 7px;
-    margin-top: 10px;
+    margin-top: 48px;
     right: 9px;
 }
 
@@ -83,7 +98,7 @@ body
 
 .input
 {
-    width: 85%;
+    width: 92%;
     margin-bottom: 6px;
 
     outline: none;
@@ -95,7 +110,7 @@ body
 
 .input:focus
 {
-    width: 85%;
+    width: 92%;
     outline: none;
     outline-style: none;
     border: 1px solid;
@@ -112,12 +127,21 @@ h1
 {
     color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 p
 {
     color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#formContactUs
+{
+    padding-left: 90px;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 label
@@ -134,8 +158,8 @@ input
 
 .inputEmailInfo
 {
-    width: 20%;
-    margin-bottom: 6px;
+    width: 90%;
+    margin-bottom: 12px;
 
     outline: none;
     outline-style: none;
@@ -175,6 +199,22 @@ input:focus
     border-style: none;
 }
 
+#inputSubmit
+{
+    width: 90.6%;
+    height: 28px;
+}
+
+#pageFooter
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
 hr
 {
     border: 1px solid rgb(100, 100, 100);
@@ -183,5 +223,7 @@ hr
 
 #copyright
 {
+    text-align: left;
+    padding-left: 12px;
     color: rgb(100, 100, 100);
 }
