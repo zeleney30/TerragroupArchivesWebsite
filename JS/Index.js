@@ -1,5 +1,18 @@
-let formLogin = document.querySelector('#formLogin')
-let formSignup = document.querySelector('#formSignup')
+const express = require('express');
 
-formLogin.style.display = 'none';
-formSignup.style.display = 'none';
+const app = express();
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+
+
+
+app.get('/', (req, res) =>
+{
+    res.render("index", { name: "Michael"});
+})
+
+app.listen(3000, () => 
+{
+    console.log("Server is running!");
+})
