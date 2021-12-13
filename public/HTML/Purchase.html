@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Purchase page for Terragroup Archives">
+        <meta name="keywords" content="Terragroup, Archives, Escape, Tarkov, eft">
+        <meta name="author" content="Michael Zeleney">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../CSS/Purchase.css">
+
+        <link rel="shortcut icon" href="../Images/Favicon.png" type="image/x-icon">
+
+        <script src="https://kit.fontawesome.com/1e05d4609c.js" crossorigin="anonymous"></script>
+
+        <title>Terragroup Archives</title>
+    </head>
+
+    <body>
+        <header id="pageHeader">
+            <nav id="navBar">
+                <ul id="navBarList">
+                    <il class="navBarItems"><a href="../index.html" class="navBarLinks">Home</a></il>
+                    <il class="navBarItems"><a href="Purchase.html" class="navBarLinks">Purchase</a></il>
+                    <il class="navBarItems"><a href="ContactUs.html" class="navBarLinks">Contact Us</a></il>
+                    <il class="navBarItems"><a href="" class="navBarLinks">Download</a></il>
+                    <il class="navBarItems" style="float: right;"><a href="" class="navBarLinks">Login/Signup</a></il>
+                </ul>
+            </nav>
+            
+            <form id="formLogin">
+                <h1 id="h1Login">Login</h1>
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" placeholder="Email" class="input" id="inputEmailLogin" name="email">
+
+                <label for="password">Password:</label>
+                <br>
+                <input type="password" placeholder="Password" class="input" id="inputPasswordLogin" name="password">
+
+                <input type="submit" id="inputSubmitLogin" value="Submit">
+            </form>
+
+            <form id="formSignup">
+                <h1 id="h1Signup">Signup</h1>
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" placeholder="Email" class="input" id="inputEmailSignup" name="email">
+
+                <label for="password">Password:</label>
+                <br>
+                <input type="password" placeholder="Password" class="input" id="inputPasswordSignup" name="password">
+
+                <input type="submit" id="inputSubmitSignup" value="Submit">
+            </form>
+        </header>
+
+        <main id="mainContent">
+            <h1>Purchase</h1>
+
+            <form id="formPurchase">
+                <div id="product">
+                    <label for="productSelection">Product:</label>
+                    <br>
+                    <select name="productSelection" id="productSelection">
+                        <option value="Free">Free</option>
+                        <option value="7">$7</option>
+                        <option value="15">$15</option>
+                    </select>
+                </div>
+
+                <div id="billing">
+                    <label for="name">Full Name:</label>
+                    <br>
+                    <input type="text" placeholder="John Doe" class="inputBilling" id="inputName" name="name">
+
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" placeholder="YourEmail@Example.com" class="inputBilling" id="inputEmail" name="email">
+
+                    <label for="address">Address:</label>
+                    <br>
+                    <input type="text" placeholder="12345 North St" class="inputBilling" id="inputAddress" name="address">
+
+                    <label for="city">City:</label>
+                    <br>
+                    <input type="text" placeholder="Detroit" class="inputBilling" id="inputCity" name="city">
+
+                    <label for="state">State:</label>
+                    <br>
+                    <input type="text" placeholder="Michigan" class="inputBilling" id="inputState" name="state">
+
+                    <label for="zipCode">Zip Code:</label>
+                    <br>
+                    <input type="text" placeholder="12345" class="inputBilling" id="inputZipCode" name="zipCode">
+                </div>
+
+                <div id="cardInfo">
+                    <label for="cardTypes">Payment Types:</label>
+                    <br>
+                    <i class="fab fa-cc-visa fa-lg"></i>
+                    <i class="fab fa-cc-mastercard fa-lg"></i>
+                    <i class="fab fa-cc-discover fa-lg"></i>
+                    <i class="fab fa-cc-amex fa-lg"></i>
+                    <i class="fab fa-cc-stripe fa-lg"></i>
+                    <i class="fab fa-cc-paypal fa-lg"></i>
+                    <br>
+
+                    <label for="nameOnCard">Name on Card:</label>
+                    <br>
+                    <input type="text" placeholder="John Smith" class="inputPayment" id="inputNameOnCard" name="nameOnCard">
+
+                    <label for="cardNumber">Card Number:</label>
+                    <br>
+                    <input type="text" placeholder="0000-0000-0000-0000" class="inputPayment" id="inputCardNumber" name="cardNumber">
+
+                    <label for="expiration">Expiration Date:</label>
+                    <br>
+                    <input type="text" placeholder="01/28" class="inputPayment" id="inputExpiration" name="expiration">
+
+                    <label for="CVV">CVV:</label>
+                    <br>
+                    <input type="text" placeholder="123" class="inputPayment" id="inputCVV" name="CVV">
+
+                    <br>
+
+                    <input type="submit" value="Pay" id="inputSubmit">
+                </div>
+            </form>
+        </main>
+
+        <footer id="pageFooter">
+            <hr>
+            <p id="copyright">
+                &copy;TerragroupArchives 2021.
+            </p>
+        </footer>
+    </body>
+</html>
