@@ -15,7 +15,17 @@ app.get('', (req, res) => {
   res.render('index');
 })
 
+app.get('/index', (req, res) => {
+    res.render('index');
+})
 
+app.get('/ContactUs', (req, res) => {
+    res.render('ContactUs');
+})
+
+app.get('/Purchase', (req, res) => {
+    res.render('Purchase');
+})
 
 const PORT = process.env.PORT || 3000;
 
