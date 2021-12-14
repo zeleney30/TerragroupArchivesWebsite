@@ -3,10 +3,6 @@ const session = require("express-session");
 const passport = require("passport");
 require("./Authentication");
 
-const path = require("path");
-const ejs = require("ejs");
-const passport = require("passport");
-
 const app = express();
 
 app.use(express.json());
