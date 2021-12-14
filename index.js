@@ -3,6 +3,13 @@ const session = require("express-session");
 const passport = require("passport");
 require("./Authentication");
 
+
+function isLoggedIn(req, res, next)
+{
+    req.user ? next() : res.sendStatus(401);
+}
+
+
 const app = express();
 
 app.use(express.json());
@@ -31,7 +38,7 @@ app.get('/ContactUs', (req, res) => {
     res.render('ContactUs');
 })
 
-app.get('/Purchase', (req, res) => {
+app.get('/Purchase', isLoggedIn, (req, res) => {
     res.render('Purchase');
 })
 
