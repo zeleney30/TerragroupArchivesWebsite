@@ -61,7 +61,6 @@ body
     display: block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    width: 92%;
     margin-bottom: 6px;
 
     outline: none;
@@ -73,52 +72,11 @@ body
 
 .input:focus
 {
-    width: 92%;
     outline: none;
     outline-style: none;
     border: 1px solid;
     outline-width: 0;
     border-radius: 0;
-}
-
-#formLogin
-{
-    position: fixed;
-    z-index: 1;
-    width: 15%;
-    background-color: rgb(24, 28, 32);
-    padding-left: 24px;
-    padding-bottom: 24px;
-    border: 1px solid rgb(100, 100, 100);
-    border-radius: 7px;
-    margin-top: 48px;
-    right: 9px;
-}
-
-#formSignup
-{
-    position: fixed;
-    z-index: 1;
-    width: 15%;
-    background-color: rgb(24, 28, 32);
-    padding-left: 24px;
-    padding-bottom: 24px;
-    border: 1px solid rgb(100, 100, 100);
-    border-radius: 7px;
-    margin-top: 48px;
-    right: 9px;
-}
-
-#h1Login
-{
-    color: rgb(255, 255, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-#h1Signup
-{
-    color: rgb(255, 255, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #mainContent
