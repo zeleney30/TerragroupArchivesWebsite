@@ -128,7 +128,7 @@ input
 
 .inputEmailInfo:focus
 {
-    width: 20%;
+    width: 90%;
     outline: none;
     outline-style: none;
     border: 1px solid;
