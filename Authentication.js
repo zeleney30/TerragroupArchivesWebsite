@@ -10,8 +10,8 @@ passport.use(
   new GoogleStrategy(
     {
       // Coneecting to Google
-      clientID: '822250544015-6tu4k95i3p87ddpvlnpf0ncqanhc8d2q.apps.googleusercontent.com',
-      clientSecret: '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',
+      clientID: '828042283208-l6df3668ar0acrjpcq7bjtido5r28pml.apps.googleusercontent.com',
+      clientSecret: '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',
       callbackURL: "https://powerful-mountain-17148.herokuapp.com/auth/google/callback",
       passReqToCallback: true,
     },
