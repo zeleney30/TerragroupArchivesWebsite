@@ -1,7 +1,11 @@
 const express = require("express");
+const session = require("express-session");
+const passport = require("passport");
+require("./Authentication");
 
 const path = require("path");
 const ejs = require("ejs");
+const passport = require("passport");
 
 const app = express();
 
@@ -14,6 +18,10 @@ app.use('/public', express.static(__dirname + "/public"));
 app.get('', (req, res) => {
   res.render('index');
 })
+
+// /auth/google
+app.get('/auth/google', passport.authenticate("google", { scope: ["email", "profile"] }));
+
 
 app.get('/index', (req, res) => {
     res.render('index');
