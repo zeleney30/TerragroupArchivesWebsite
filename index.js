@@ -18,6 +18,10 @@ app.get('', (req, res) => {
 // /auth/google
 app.get('/auth/google', passport.authenticate("google", { scope: ["email", "profile"] }));
 
+app.get('/auth/google/callback', (req, res) => {
+    res.render('index');
+})
+
 
 app.get('/index', (req, res) => {
     res.render('index');
